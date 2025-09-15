@@ -56,7 +56,7 @@ n_qubits (default 4) — trades off dimension vs circuit depth
 n_layers (default 4) — more layers increase expressivity  
 
 **Hybrid training**
- - lr=1e-4, batch_size=8, epochs=20, patience=5  
+`lr=1e-4`, `batch_size=8`, `epochs=20`, `patience=5`  
 
 **Baseline**  
 Hidden units: 32, Dropout(0.5), epochs=10, batch_size=32  
