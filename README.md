@@ -25,10 +25,7 @@ This project trains a **CNN** on Fashion-MNIST, uses its **penultimate dense lay
    - `PCA(n_components = n_qubits)` to compress to the number of quantum wires.
 
 4. **Angle scaling for quantum encoding**
-   - Scale PCA features to **[−π, π]** so they can be fed to **RY** rotations:
-     \[
-     X_\text{scaled} = 2\pi \cdot \frac{X - X_\min}{X_\max - X_\min} - \pi
-     \]
+   - Scale PCA features to **[−π, π]** so they can be fed to **RY** rotations
 
 5. **Variational Quantum Classifier (PennyLane)**
    - Device: `default.qubit`, `wires = n_qubits`
